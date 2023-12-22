@@ -4,7 +4,7 @@ ENVIRONMENT DIVISION.
 DATA DIVISION. 
 WORKING-STORAGE SECTION. 
     01 inFileName PIC X(12) VALUE 'test.txt'.
-    01 outFileName PIC X(12) VALUE 'out'.
+    01 outFileName PIC X(12) VALUE 'out.txt'.
     01 inFileHandle PIC X(4).
     01 inOffset PIC X(8) comp-x VALUE ZERO. 
     01 outFileHandle PIC X(4).
